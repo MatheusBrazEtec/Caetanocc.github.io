@@ -5,7 +5,7 @@ function ALUNO() {
 
 function MATHEUS() {
     linkGit = document.querySelector("#MATHEUS")
-    linkGit.innerText = "https://matheusbrazetec.github.io/perfil"
+    linkGit.innerText = '<a href="https://matheusbrazetec.github.io/perfil/">https://matheusbrazetec.github.io/perfil/</a>';
 }
 
 function JOAO_MIGUEL() {
@@ -27,15 +27,4 @@ function GUILHERME() {
     linkGit = document.querySelector("#GUILHERME")
     linkGit.innerHTML = "https://github.com/Gui-Silva-95"
 }
-
-function GUSTAVO_GONCALVES() {
-    linkGit = document.querySelector("#GUSTAVO_GONCALVES")
-    linkGit.innerText = "https://github.com/Gugagla/Gugagla"
-}
-
-function JULIO() {
-    linkGit = document.querySelector("#JULIO")
-    linkGit.innerText = "https://github.com/JCFerreir"
-}
-
 
